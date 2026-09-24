@@ -1,4 +1,26 @@
+
+html{
+    scroll-behavior: smooth ;
+}
 body{
     color:rgb(224, 224, 224);
     background-color: rgb(24, 24, 24);
+}
+.idktest{
+    margin: 50px auto;
+    width: min(1000px, 95%);
+    display: flex;
+    gap: 1em;
+}
+.idk{
+    flex: 1;
+    padding: 10px;
+    background-color: blue;
+    color: rgb(255, 123, 0);
+    gap: 1;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 123, 0);
+}
+section{
+    min-height: 100vb;
 }
