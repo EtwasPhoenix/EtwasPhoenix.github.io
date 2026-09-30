@@ -6,15 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer>
+    </script>
 </head>
 
 <body>
+    <nav href="#idk">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#test">Test</a></li>
+            <li><a href="#idk">idk</a></li>
+            <li><a href="#skin">skinViewer</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section class="testt" id="home">
+        <h1 style="scale: 2;">(WIP)</h1>
+
+        <img src="http://github.com/etwasphoenix.png" id="lol" style="width: 200px;">
+
+        <h1>Hey, I code and make short films.</h1>
+        <button onclick="light()">Dark/Light</button>
+
+    </section>
     <section id="test">
         <h1>(WIP)</h1>
         <div class="idktest">
             <div class="idk">
                 <h1>WIP</h1>
-                <p>Lorem ipsum dolor sit ameore nostrum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cum possimus numquam mollitia! Alias, voluptates voluptatem. Quasi, perspiciatis, aperiam laudantium ipsam velit iste alias quibusdam sapiente similique, repudiandae excepturi ipsum?</p>
+                <p>Lorem ipsum dolor sit ameore nostrum! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Corrupti cum possimus numquam mollitia! Alias, voluptates voluptatem. Quasi, perspiciatis, aperiam
+                    laudantium ipsam velit iste alias quibusdam sapiente similique, repudiandae excepturi ipsum?</p>
                 <a href="homepage"><button>homaepage</button></a>
             </div>
 
@@ -36,9 +60,22 @@
             </div>
 
         </div>
-    </section>
-    <section id="idk">
+
+
+    </section class="idk">
+    <section id="idk" class="idk">
         <h1>idk</h1>
+    </section>
+
+    
+    <section id="skin" class="testt">
+        <iframe id="skinViewer"
+            src="https://kurojs.github.io/McView3D/embed.html?skin=schatzsuche&width=400&height=400&cape=default"
+            width="400" height="400">
+        </iframe>
+        <input id="skinInput" type="text" placeholder="Minecraft username">
+        <button onclick="downloadSkin()">Download Skin</button>
+
     </section>
 </body>
 
