@@ -1,48 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Micro+5&family=Tiny5&display=swap');
-html{
-    scroll-behavior: smooth ;
+
+html {
+    scroll-behavior: smooth;
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-nav{
+
+nav {
     position: sticky;
     top: 0;
     padding: 10px 0;
     z-index: 1000;
 }
-body{
-    color:rgb(224, 224, 224);
+
+body {
+    color: rgb(224, 224, 224);
     background-color: rgb(11, 11, 16);
 }
-body.light{
-    background-color:rgb(224, 224, 224);
+
+body.light {
+    background-color: rgb(224, 224, 224);
     color: rgb(24, 24, 24);
 
 }
-.idktest{
+
+.idktest {
     margin: 50px auto;
     width: min(1000px, 95%);
     display: flex;
     gap: 1em;
 }
-.idk{
+
+button {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.4s;
+}
+
+button:hover {
+    transition: background-color 0.2s linear;
+    background-color: #ff8eec;
+    top: -5px;
+    background-color: rgb(243, 136, 220);
+}
+
+.idk {
     flex: 1;
     padding: 10px;
-    background-color: blue;
+    background-color: rgb(2, 2, 223);
     color: rgb(255, 123, 0);
     gap: 1;
     border-radius: 10px;
     border: 2px solid rgb(255, 60, 0);
 }
-section{
+
+
+.ProjectIMG {
+    flex: 1;
+    padding: 10px;
+    /* background-color: rgb(2, 2, 223);
+    border: 2px solid rgb(255, 60, 0);*/
+    color: rgb(255, 123, 0);
+    gap: 1;
+    border-radius: 10px;
+    text-align: center;
+}
+.image{
+    position: relative;
+    top: 0;
+    transition: top ease 0.4s;
+
+}
+.image:hover{
+    top: -8px;
+}
+
+section {
     min-height: 100vb;
 }
+
 a {
     color: white;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
     color: #ff8eec;
 }
@@ -60,13 +108,14 @@ a:hover{
     z-index: 10;
 }
 
-.testt{
+.testt {
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
 
 }
-iframe{
+
+iframe {
     border: none;
 }
