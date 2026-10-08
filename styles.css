@@ -19,6 +19,7 @@ nav {
 body {
     color: rgb(224, 224, 224);
     background-color: rgb(10, 10, 13);
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.20));;
 }
 
 body.light {
